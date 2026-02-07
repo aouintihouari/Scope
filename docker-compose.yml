@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: scope-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: scope_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - scope_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  scope_postgres_data:
