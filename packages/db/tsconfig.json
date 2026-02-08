@@ -2,11 +2,11 @@
   "extends": "@repo/typescript-config/base.json",
   "compilerOptions": {
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDir": ".",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "types": ["node"]
   },
-  "include": ["src", "prisma"],
+  "include": ["src", "prisma", "prisma.config.ts"],
   "exclude": ["node_modules", "dist"]
 }

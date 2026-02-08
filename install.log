@@ -1,0 +1,21 @@
+Scope: all 6 workspace projects
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 22, reused 22, downloaded 0, added 0
+C:\Users\houar_n5qf0ra\Coding\Portfolio\scope\packages\eslint-config:
+ΓÇëERR_PNPM_NO_MATCHING_VERSIONΓÇë No matching version found for typescript@5.7.0
+
+This error happened while installing a direct dependency of C:\Users\houar_n5qf0ra\Coding\Portfolio\scope\packages\eslint-config
+
+The latest release of typescript is "5.9.3".
+
+Other releases are:
+  * dev: 3.9.4
+  * tag-for-publishing-older-releases: 4.1.6
+  * insiders: 4.6.2-insiders.20220225
+  * beta: 5.9.0-beta
+  * rc: 5.9.1-rc
+  * next: 6.0.0-dev.20260208
+
+If you need the full list of all 3710 published versions run "$ pnpm view typescript versions".
+Progress: resolved 29, reused 29, downloaded 0, added 0
+apps/web                                 | ΓÇëWARNΓÇë deprecated next@15.1.6

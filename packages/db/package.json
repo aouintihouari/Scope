@@ -17,10 +17,11 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@types/node": "^22.15.3",
-    "@types/pg": "^8.16.0",
-    "eslint": "^9.39.1",
+    "@types/node": "22.15.3",
+    "@types/pg": "8.16.0",
+    "dotenv": "17.2.4",
+    "eslint": "9.39.1",
     "prisma": "7.4.0-dev.16",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   }
 }

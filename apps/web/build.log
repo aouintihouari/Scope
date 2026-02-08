@@ -1,0 +1,55 @@
+
+> web@0.1.0 build C:\Users\houar_n5qf0ra\Coding\Portfolio\scope\apps\web
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 2 errors:
+./apps/web/app/globals.css:3:2
+Module not found: Can't resolve 'shadcn/tailwind.css'
+  1 | @import "tailwindcss";
+  2 | @import "tw-animate-css";
+> 3 | @import "shadcn/tailwind.css";
+    |  ^
+  4 |
+  5 | @custom-variant dark (&:is(.dark *));
+  6 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./apps/web/app/globals.css [Client Component Browser]
+    ./apps/web/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./apps/web/app/globals.css:2:2
+Module not found: Can't resolve 'tw-animate-css'
+  1 | @import "tailwindcss";
+> 2 | @import "tw-animate-css";
+    |  ^
+  3 | @import "shadcn/tailwind.css";
+  4 |
+  5 | @custom-variant dark (&:is(.dark *));
+
+
+
+Import trace:
+  Client Component Browser:
+    ./apps/web/app/globals.css [Client Component Browser]
+    ./apps/web/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (./apps/web/app/globals.css:3:2)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./apps/web/app/globals.css:2:2)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+ΓÇëELIFECYCLEΓÇë Command failed with exit code 1.

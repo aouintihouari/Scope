@@ -1,0 +1,11 @@
+
+> web@0.1.0 check-types C:\Users\houar_n5qf0ra\Coding\Portfolio\scope\apps\web
+> next typegen && tsc --noEmit
+
+Generating route types...
+Γ£ô Types generated successfully
+app/page.tsx(2,10): error TS2305: Module '"@/lib/auth-client"' has no exported member 'signUp'.
+app/page.tsx(2,18): error TS2305: Module '"@/lib/auth-client"' has no exported member 'useSession'.
+app/page.tsx(2,30): error TS2305: Module '"@/lib/auth-client"' has no exported member 'signOut'.
+../../packages/db/src/index.ts(1,10): error TS2305: Module '"@prisma/client"' has no exported member 'PrismaClient'.
+ΓÇëELIFECYCLEΓÇë Command failed with exit code 2.
